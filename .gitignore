@@ -1,0 +1,4 @@
+node_modules/
+dist/
+tmp-visual/
+.DS_Store

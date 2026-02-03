@@ -1,0 +1,29 @@
+{
+  "name": "websitemarialuisa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sylvlondon/marialuisawebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sylvlondon/marialuisawebsite/issues"
+  },
+  "homepage": "https://github.com/sylvlondon/marialuisawebsite#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "cheerio": "^1.2.0",
+    "pixelmatch": "^7.1.0",
+    "playwright-core": "^1.58.1",
+    "pngjs": "^7.0.0"
+  }
+}

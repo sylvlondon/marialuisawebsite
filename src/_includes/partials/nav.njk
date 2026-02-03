@@ -1,0 +1,61 @@
+{% if nav_prefix %}{% set nav_prefix_path = nav_prefix + '/' %}{% else %}{% set nav_prefix_path = '' %}{% endif %}
+<div data-animation="default" class="navbar w-nav" data-easing2="ease-in-out-quart" data-easing="ease-in-out-quart" data-collapse="medium" data-w-id="c81177f5-30d9-0b45-7e50-13a92c73e156" role="banner" data-no-scroll="1" data-duration="1200" data-doc-height="1">
+  <div class="container-navbar">
+    <a href="{{ nav_prefix_path }}index.html"{% if nav_current and section == "home" %} aria-current="page"{% endif %} class="logo-brand no-store w-clearfix w-nav-brand{% if nav_current and section == "home" %} w--current{% endif %}">
+      <div class="nav-menu">Maria Luisa Macellaro La Franca - Conductor</div>
+    </a>
+    <aside class="menu-button rotate w-nav-button">
+      <div class="burger-wrapper">
+        <div class="burger-top-line"></div>
+        <div class="burger-middle-line"></div>
+        <div class="burger-bottom-line"></div>
+      </div>
+    </aside>
+    <div class="menu-content w-clearfix">
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <a href="{{ nav_prefix_path }}index.html"{% if nav_current and section == "home" %} aria-current="page"{% endif %} class="nav-link w-nav-link{% if nav_current and section == "home" %} w--current{% endif %}">home</a>
+        <a href="{{ nav_prefix_path }}about.html"{% if nav_current and section == "about" %} aria-current="page"{% endif %} class="nav-link w-nav-link{% if nav_current and section == "about" %} w--current{% endif %}">ABOUT</a>
+        <a href="{{ nav_prefix_path }}music.1.html"{% if nav_current and section == "music" %} aria-current="page"{% endif %} class="nav-link w-nav-link{% if nav_current and section == "music" %} w--current{% endif %}">music</a>
+        <a href="{{ nav_prefix_path }}press.html"{% if nav_current and section == "press" %} aria-current="page"{% endif %} class="nav-link w-nav-link{% if nav_current and section == "press" %} w--current{% endif %}">PRESS</a>
+        <a href="{{ nav_prefix_path }}shows.html"{% if nav_current and section == "shows" %} aria-current="page"{% endif %} class="nav-link w-nav-link{% if nav_current and section == "shows" %} w--current{% endif %}">shows</a>
+        <div class="menu-icons">
+          <div class="stream-social-menu-list">
+            <div class="fweight-bold">Listen:</div>
+            <div class="w-dyn-list">
+              <div role="list" class="streaming-icons w-dyn-items">
+                <div role="listitem" class="w-dyn-item">
+                  <a href="https://spotify.com/" class="stream-link w-inline-block">
+                    <img loading="eager" src="{{ asset_prefix }}/cdn.prod.website-files.com/66b9f659f5f74a4a9e25efb3/66b9f659f5f74a4a9e25f08c_Spotify-black.svg" alt="" class="img-stream-icons" />
+                  </a>
+                </div>
+                <div role="listitem" class="w-dyn-item">
+                  <a href="https://www.youtube.com/" class="stream-link w-inline-block">
+                    <img loading="eager" src="{{ asset_prefix }}/cdn.prod.website-files.com/66b9f659f5f74a4a9e25efb3/66b9f659f5f74a4a9e25f081_YouTube-black.svg" alt="" class="img-stream-icons" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="stream-social-menu-list">
+            <div class="fweight-bold">Follow :</div>
+            <div class="w-dyn-list">
+              <div role="list" class="streaming-icons w-dyn-items">
+                <div role="listitem" class="w-dyn-item">
+                  <a href="https://www.instagram.com/" class="stream-link w-inline-block">
+                    <img loading="eager" src="{{ asset_prefix }}/cdn.prod.website-files.com/66b9f659f5f74a4a9e25efb3/66b9f659f5f74a4a9e25f06b_Instagram-black.svg" alt="" class="img-stream-icons" />
+                  </a>
+                </div>
+                <div role="listitem" class="w-dyn-item">
+                  <a href="https://tiktok.com/" class="stream-link w-inline-block">
+                    <img loading="eager" src="{{ asset_prefix }}/cdn.prod.website-files.com/66b9f659f5f74a4a9e25efb3/66b9f659f5f74a4a9e25f013_Tiktok-black.svg" alt="" class="img-stream-icons" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <aside class="background-burger-navigation"></aside>
+</div>

@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/olympia-arcachon.html"
+title: "OLYMPIA ARCACHON - Maria Luisa Macellaro La Franca"
+description: "ArcachonMar 14, 2026"
+og_title: "OLYMPIA ARCACHON - Maria Luisa Macellaro La Franca"
+twitter_title: "OLYMPIA ARCACHON - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"olympia-arcachon\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "OLYMPIA ARCACHON"
+date_part_one: "Mar 14"
+date_part_two: "2026"
+location: "Arcachon"
+time: "6:31 pm"
+show_body: "<p>Opera CONCERT </p><p>Orchestre Unisson </p><p>Accords libre Choir</p><p>Yulia Popova solo</p><p>Olympia de Arcachon </p>"
+other_slugs:
+  - "olympia-arcachon.html#"
+  - "olympia-arcachon.html#"
+---
+

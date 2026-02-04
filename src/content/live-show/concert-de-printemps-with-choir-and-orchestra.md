@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/concert-de-printemps-with-choir-and-orchestra.html"
+title: "Concert de Printemps with Choir and orchestra  - Maria Luisa Macellaro La Franca"
+description: "Merignac Eglise Saint Bernadetta Apr 13, 2025"
+og_title: "Concert de Printemps with Choir and orchestra  - Maria Luisa Macellaro La Franca"
+twitter_title: "Concert de Printemps with Choir and orchestra  - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"concert-de-printemps-with-choir-and-orchestra\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "Concert de Printemps with Choir and orchestra"
+date_part_one: "Apr 13"
+date_part_two: "2025"
+location: "Merignac Eglise Saint Bernadetta"
+time: "4:35 pm"
+show_body: ""
+other_slugs:
+  - "concert-de-printemps-with-choir-and-orchestra.html#"
+  - "concert-de-printemps-with-choir-and-orchestra.html#"
+---
+

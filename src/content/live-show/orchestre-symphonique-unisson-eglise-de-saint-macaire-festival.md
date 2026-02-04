@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/orchestre-symphonique-unisson-eglise-de-saint-macaire-festival.html"
+title: "Orchestre Symphonique Unisson Eglise de Saint Macaire festival  - Maria Luisa Macellaro La Franca"
+description: "Eglise Saint Macaire Sep 21, 2024"
+og_title: "Orchestre Symphonique Unisson Eglise de Saint Macaire festival  - Maria Luisa Macellaro La Franca"
+twitter_title: "Orchestre Symphonique Unisson Eglise de Saint Macaire festival  - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"orchestre-symphonique-unisson-eglise-de-saint-macaire-festival\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "Orchestre Symphonique Unisson Eglise de Saint Macaire festival"
+date_part_one: "Sep 21"
+date_part_two: "2024"
+location: "Eglise Saint Macaire"
+time: "7:00 pm"
+show_body: ""
+other_slugs:
+  - "orchestre-symphonique-unisson-eglise-de-saint-macaire-festival.html#"
+  - "orchestre-symphonique-unisson-eglise-de-saint-macaire-festival.html#"
+---
+

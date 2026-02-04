@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/new-york-meeting-equality-gender-bip-cnh-industrial---conference-international44628.html"
+title: "NEW YORK MEETING equality gender BIP CNH INDUSTRIAL , conférence international - Maria Luisa Macellaro La Franca"
+description: "New york CNH auditoriumMar 08, 2022"
+og_title: "NEW YORK MEETING equality gender BIP CNH INDUSTRIAL , conférence international - Maria Luisa Macellaro La Franca"
+twitter_title: "NEW YORK MEETING equality gender BIP CNH INDUSTRIAL , conférence international - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"new-york-meeting-equality-gender-bip-cnh-industrial---conference-international44628\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "NEW YORK MEETING equality gender BIP CNH INDUSTRIAL , conférence international"
+date_part_one: "Mar 8"
+date_part_two: "2022"
+location: "New york CNH auditorium"
+time: "12:00 am"
+show_body: ""
+other_slugs:
+  - "new-york-meeting-equality-gender-bip-cnh-industrial---conference-international44628.html#"
+  - "new-york-meeting-equality-gender-bip-cnh-industrial---conference-international44628.html#"
+---
+

@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/radio-conference45006.html"
+title: "Radio Conference - Maria Luisa Macellaro La Franca"
+description: "RIG FMMar 21, 2023"
+og_title: "Radio Conference - Maria Luisa Macellaro La Franca"
+twitter_title: "Radio Conference - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"radio-conference45006\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "Radio Conference"
+date_part_one: "Mar 21"
+date_part_two: "2023"
+location: "RIG FM"
+time: "12:00 am"
+show_body: ""
+other_slugs:
+  - "radio-conference45006.html#"
+  - "radio-conference45006.html#"
+---
+

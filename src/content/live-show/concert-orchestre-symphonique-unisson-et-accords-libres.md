@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/concert-orchestre-symphonique-unisson-et-accords-libres.html"
+title: "CONCERT Orchestre Symphonique Unisson et Accords Libres  - Maria Luisa Macellaro La Franca"
+description: "Bordeaux ( in short the place )Mar 08, 2026"
+og_title: "CONCERT Orchestre Symphonique Unisson et Accords Libres  - Maria Luisa Macellaro La Franca"
+twitter_title: "CONCERT Orchestre Symphonique Unisson et Accords Libres  - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"concert-orchestre-symphonique-unisson-et-accords-libres\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "CONCERT Orchestre Symphonique Unisson et Accords Libres"
+date_part_one: "Mar 8"
+date_part_two: "2026"
+location: "Bordeaux ( in short the place )"
+time: "4:00 pm"
+show_body: "<p>Opera Concert , Symphony orchestra &gt;choir and Soloist </p><p>Unisson Symphony , Accords Libres choir and Yulia Popova Solo</p>"
+other_slugs:
+  - "concert-orchestre-symphonique-unisson-et-accords-libres.html#"
+  - "concert-orchestre-symphonique-unisson-et-accords-libres.html#"
+---
+

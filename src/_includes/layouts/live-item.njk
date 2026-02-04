@@ -1,0 +1,67 @@
+<section class="page-wrapper">
+  <section class="live-content">
+    <div class="w-layout-blockcontainer container w-container">
+      <div class="live-infos">
+        <div data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c2d" style="opacity:0" class="live-date bg-primary-dark">
+          <div class="date-content w-clearfix">
+            <div class="date">{{ date_part_one }}</div>
+            <div class="date">{{ date_part_two }}</div>
+          </div>
+          <div class="bg-date-swap bg-dark"></div>
+        </div>
+        <div class="live-item-content">
+          <div data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c35" style="opacity:0" class="live-item-title fsize-medium fweight-bold">{{ show_title }}</div>
+          <div data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c37" style="opacity:0" class="live-details">
+            <a href="#" class="localization-link">{{ location }}</a>
+            <div class="separator">●</div>
+            <div class="time">{{ time }}</div>
+          </div>
+        </div>
+      </div>
+      <div data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c3e" class="line-separator full-black"></div>
+      <div data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c3f" style="opacity:0" class="rich-text live-shows w-richtext">{{ show_body | safe }}</div>
+    </div>
+  </section>
+  <section class="cross-collection">
+    <div class="w-layout-blockcontainer container w-container">
+      <div class="cross-title">
+        <div data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c74" class="line-separator full-black"></div>
+        <h2 data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c75" style="opacity:0" class="fsize-large">Other Shows</h2>
+      </div>
+      <aside class="page-live-collection w-dyn-list">
+        <div role="list" class="home-live-list w-dyn-items">
+          {% for slug in other_slugs %}
+            {% set item = shows | selectattr("slug", "equalto", slug) | first %}
+            {% if item %}
+              <div data-w-id="0a0a0a43-298b-7145-d91c-ea5c564f28e1" style="opacity:0" role="listitem" class="home-live-item w-dyn-item">
+                <a href="{{ item.permalink | replace('live-show/', '') }}" class="live-link-page w-inline-block">
+                  <div class="live-date">
+                    <div class="date-content w-clearfix">
+                      <div class="date">{{ item.date_part_one }}</div>
+                      <div class="date">{{ item.date_part_two }}</div>
+                    </div>
+                    <div class="bg-date-swap bg-dark"></div>
+                  </div>
+                  <div class="live-item-content">
+                    <h2 class="live-item-title fsize-xxsmall">{{ item.show_title }}</h2>
+                    <div class="live-details">
+                      <div class="localization">{{ item.location }}</div>
+                      <div class="separator">●</div>
+                      <div class="time">{{ item.time }}</div>
+                    </div>
+                  </div>
+                  <div class="live-line-dark"></div>
+                  <div id="w-node-_0a0a0a43-298b-7145-d91c-ea5c564f28f5-9e25ef9f" class="live-line-darkgrey"></div>
+                </a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </aside>
+      <div class="bottom-button-wrapper center">
+        <a href="../shows.html" data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c7e" style="opacity:0" class="button center w-button">View all events</a>
+        <div data-w-id="8c3ee75b-c4b0-a11d-e2fd-3c4b73182c80" style="width:0px" class="line-separator"></div>
+      </div>
+    </div>
+  </section>
+</section>

@@ -1,0 +1,920 @@
+[
+  {
+    "slug": "artist-event-45047",
+    "permalink": "live-show/artist-event-45047.html",
+    "show_title": "Artist event",
+    "date_part_one": "May 1",
+    "date_part_two": "2023",
+    "location": "MAgasin Captain Primeur Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "choeur-chnatenoes-45465",
+    "permalink": "live-show/choeur-chnatenoes-45465.html",
+    "show_title": "Choeur Chnatenoes",
+    "date_part_one": "Jun 22",
+    "date_part_two": "2024",
+    "location": "Eglise Pessac",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "chopin-piano-recital44835",
+    "permalink": "live-show/chopin-piano-recital44835.html",
+    "show_title": "Chopin piano recital",
+    "date_part_one": "Oct 1",
+    "date_part_two": "2022",
+    "location": "Eglise de Croignon festival",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "chopin-recital-44759",
+    "permalink": "live-show/chopin-recital-44759.html",
+    "show_title": "Chopin recital",
+    "date_part_one": "Jul 17",
+    "date_part_two": "2022",
+    "location": "Eglise de Blaye",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "concert-de-printemps-with-choir-and-orchestra",
+    "permalink": "live-show/concert-de-printemps-with-choir-and-orchestra.html",
+    "show_title": "Concert de Printemps with Choir and orchestra",
+    "date_part_one": "Apr 13",
+    "date_part_two": "2025",
+    "location": "Merignac Eglise Saint Bernadetta",
+    "time": "4:35 pm"
+  },
+  {
+    "slug": "concert-du-nouvel-an-bordelais",
+    "permalink": "live-show/concert-du-nouvel-an-bordelais.html",
+    "show_title": "Concert du Nouvel An Bordelais",
+    "date_part_one": "Jan 19",
+    "date_part_two": "2025",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "4:30 am"
+  },
+  {
+    "slug": "concert-in-saint-macaire-church-with-orchestre-symphonique-unisson",
+    "permalink": "live-show/concert-in-saint-macaire-church-with-orchestre-symphonique-unisson.html",
+    "show_title": "Concert in Saint MACAIRE church  with Orchestre Symphonique UNISSON",
+    "date_part_one": "Sep 20",
+    "date_part_two": "2025",
+    "location": "Saint Macaire",
+    "time": "8:40 pm"
+  },
+  {
+    "slug": "concert-orchestre-symphonique-unisson-et-accords-libres",
+    "permalink": "live-show/concert-orchestre-symphonique-unisson-et-accords-libres.html",
+    "show_title": "CONCERT Orchestre Symphonique Unisson et Accords Libres",
+    "date_part_one": "Mar 8",
+    "date_part_two": "2026",
+    "location": "Bordeaux ( in short the place )",
+    "time": "4:00 pm"
+  },
+  {
+    "slug": "conference-les-compositeurs-bordelais",
+    "permalink": "live-show/conference-les-compositeurs-bordelais.html",
+    "show_title": "Conference Les compositeurs Bordelais",
+    "date_part_one": "May 13",
+    "date_part_two": "2025",
+    "location": "Bordeaux Auditorium Meriadeck",
+    "time": "10:09 am"
+  },
+  {
+    "slug": "descoubre-magazine-tv-live-event-44606",
+    "permalink": "live-show/descoubre-magazine-tv-live-event-44606.html",
+    "show_title": "Descoubre magazine TV live event",
+    "date_part_one": "Feb 14",
+    "date_part_two": "2022",
+    "location": "Madrid Tv special",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "divenire-me-cd-45272",
+    "permalink": "live-show/divenire-me-cd-45272.html",
+    "show_title": "divenire me cd",
+    "date_part_one": "Dec 12",
+    "date_part_two": "2023",
+    "location": "Hey studio Merignac",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "divenire-me-recital",
+    "permalink": "live-show/divenire-me-recital.html",
+    "show_title": "DIVENIRE ME recital",
+    "date_part_one": "May 27",
+    "date_part_two": "2025",
+    "location": "Vienne Italian Embassy",
+    "time": "5:10 pm"
+  },
+  {
+    "slug": "divenire-me-tour-44764",
+    "permalink": "live-show/divenire-me-tour-44764.html",
+    "show_title": "Divenire me tour",
+    "date_part_one": "Jul 22",
+    "date_part_two": "2022",
+    "location": "Mozia Place",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "divenire-me-tour-45060",
+    "permalink": "live-show/divenire-me-tour-45060.html",
+    "show_title": "Divenire me tour",
+    "date_part_one": "May 14",
+    "date_part_two": "2023",
+    "location": "Eglise de Toulon",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "divenire-me-tour-45072",
+    "permalink": "live-show/divenire-me-tour-45072.html",
+    "show_title": "Divenire me tour",
+    "date_part_one": "May 26",
+    "date_part_two": "2023",
+    "location": "Chateaux Haut Brion",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "divenire-me-tour-45363",
+    "permalink": "live-show/divenire-me-tour-45363.html",
+    "show_title": "Divenire me tour",
+    "date_part_one": "Mar 12",
+    "date_part_two": "2024",
+    "location": "Yamaha auditorium Bangkok",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "divenire-me-tour-45464",
+    "permalink": "live-show/divenire-me-tour-45464.html",
+    "show_title": "Divenire me tour",
+    "date_part_one": "Jun 21",
+    "date_part_two": "2024",
+    "location": "Auditorium Bordeaux Lac , fete de la musique",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "divenire-me-tour-45493",
+    "permalink": "live-show/divenire-me-tour-45493.html",
+    "show_title": "Divenire me tour",
+    "date_part_one": "Jul 20",
+    "date_part_two": "2024",
+    "location": "Teatro Cicero Cefalu",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "donne-in-opera-trio",
+    "permalink": "live-show/donne-in-opera-trio.html",
+    "show_title": "DONNE in OPERA trio",
+    "date_part_one": "Dec 13",
+    "date_part_two": "2025",
+    "location": "Salleboeuf church",
+    "time": "8:30 pm"
+  },
+  {
+    "slug": "eurorchestrie-international-374063",
+    "permalink": "live-show/eurorchestrie-international-374063.html",
+    "show_title": "Eurorchestrie international",
+    "date_part_one": "Feb 23",
+    "date_part_two": "2024",
+    "location": "Jonzac Palais de Congres",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "eurorchestrie-international-45343",
+    "permalink": "live-show/eurorchestrie-international-45343.html",
+    "show_title": "Eurorchestrie international",
+    "date_part_one": "Feb 21",
+    "date_part_two": "2024",
+    "location": "Jonzac Palais de Congres",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "eurorchestrie-international-45344",
+    "permalink": "live-show/eurorchestrie-international-45344.html",
+    "show_title": "Eurorchestrie international",
+    "date_part_one": "Feb 22",
+    "date_part_two": "2024",
+    "location": "Jonzac Palais de Congres",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "eurorchestrie-international-45346",
+    "permalink": "live-show/eurorchestrie-international-45346.html",
+    "show_title": "Eurorchestrie international",
+    "date_part_one": "Feb 24",
+    "date_part_two": "2024",
+    "location": "Jonzac Palais de Congres",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "eurorchestrie-international-45347",
+    "permalink": "live-show/eurorchestrie-international-45347.html",
+    "show_title": "Eurorchestrie international",
+    "date_part_one": "Feb 25",
+    "date_part_two": "2024",
+    "location": "Jonzac Palais de Congres",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "faure-piano-recital-45342",
+    "permalink": "live-show/faure-piano-recital-45342.html",
+    "show_title": "Faure piano Recital",
+    "date_part_one": "Feb 20",
+    "date_part_two": "2024",
+    "location": "Opera de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "festival-du-nouvel-ans-bordelais",
+    "permalink": "live-show/festival-du-nouvel-ans-bordelais.html",
+    "show_title": "FESTIVAL du Nouvel Ans Bordelais",
+    "date_part_one": "Jan 18",
+    "date_part_two": "2026",
+    "location": "Eglise Notre Dame BORDEAUX",
+    "time": "4:00 pm"
+  },
+  {
+    "slug": "festival-du-palais-gallien-2024",
+    "permalink": "live-show/festival-du-palais-gallien-2024.html",
+    "show_title": "Festival du Palais Gallien 2024",
+    "date_part_one": "Jul 5",
+    "date_part_two": "2024",
+    "location": "Le Palais Gallien de Bordeaux",
+    "time": "9:00 pm"
+  },
+  {
+    "slug": "festival-du-palais-gallien-45478",
+    "permalink": "live-show/festival-du-palais-gallien-45478.html",
+    "show_title": "Festival du Palais Gallien",
+    "date_part_one": "Jul 5",
+    "date_part_two": "2024",
+    "location": "Le Palais Gallien",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "festival-du-palais-gallien-45479",
+    "permalink": "live-show/festival-du-palais-gallien-45479.html",
+    "show_title": "Festival du Palais Gallien",
+    "date_part_one": "Jul 6",
+    "date_part_two": "2024",
+    "location": "Le Palais Gallien",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "festival-du-palais-gallien-orchestre-unissontalence",
+    "permalink": "live-show/festival-du-palais-gallien-orchestre-unissontalence.html",
+    "show_title": "Festival du Palais Gallien",
+    "date_part_one": "Jul 4",
+    "date_part_two": "2025",
+    "location": "Palais Gallien Bordeaux",
+    "time": "9:00 pm"
+  },
+  {
+    "slug": "festival-palais-gallien-orchestre-les-virtuoses-de-bordeaux",
+    "permalink": "live-show/festival-palais-gallien-orchestre-les-virtuoses-de-bordeaux.html",
+    "show_title": "Festival Palais Gallien",
+    "date_part_one": "Jul 5",
+    "date_part_two": "2025",
+    "location": "PALAIS GALLIEN",
+    "time": "9:00 pm"
+  },
+  {
+    "slug": "florence-orchestra-43831",
+    "permalink": "live-show/florence-orchestra-43831.html",
+    "show_title": "Florence Orchestra",
+    "date_part_one": "Jan 1",
+    "date_part_two": "2020",
+    "location": "Florence Theater",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "france-blue-radio-live-44617",
+    "permalink": "live-show/france-blue-radio-live-44617.html",
+    "show_title": "France blue Radio live",
+    "date_part_one": "Feb 25",
+    "date_part_two": "2022",
+    "location": "Radio live interwievs",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "gala-concert-cite-du-vin44959",
+    "permalink": "live-show/gala-concert-cite-du-vin44959.html",
+    "show_title": "Gala concert cite du Vin",
+    "date_part_one": "Feb 2",
+    "date_part_two": "2023",
+    "location": "Cité du Vin Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "germaine-et-leon-theater-45094",
+    "permalink": "live-show/germaine-et-leon-theater-45094.html",
+    "show_title": "Germaine et Leon Theater",
+    "date_part_one": "Jun 17",
+    "date_part_two": "2023",
+    "location": "Theatre Mirail Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "germaine-et-leon-theater-45099",
+    "permalink": "live-show/germaine-et-leon-theater-45099.html",
+    "show_title": "Germaine et Leon Theater",
+    "date_part_one": "Jun 22",
+    "date_part_two": "2023",
+    "location": "Theatre Mirail Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "germaine-et-leon-theater-45100",
+    "permalink": "live-show/germaine-et-leon-theater-45100.html",
+    "show_title": "Germaine et Leon Theater",
+    "date_part_one": "Jun 23",
+    "date_part_two": "2023",
+    "location": "Theatre Mirail Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "germaine-et-leon-theater-45101",
+    "permalink": "live-show/germaine-et-leon-theater-45101.html",
+    "show_title": "Germaine et Leon Theater",
+    "date_part_one": "Jun 24",
+    "date_part_two": "2023",
+    "location": "Theatre Mirail Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "germaine-et-leon-theater-45276",
+    "permalink": "live-show/germaine-et-leon-theater-45276.html",
+    "show_title": "Germaine et Leon Theater",
+    "date_part_one": "Dec 16",
+    "date_part_two": "2023",
+    "location": "Theatre Mirail Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "germaine-et-leon-theater-45277",
+    "permalink": "live-show/germaine-et-leon-theater-45277.html",
+    "show_title": "Germaine et Leon Theater",
+    "date_part_one": "Dec 17",
+    "date_part_two": "2023",
+    "location": "Theatre Mirail Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "granados-piano-choir-recital-opera-de-bordeaux",
+    "permalink": "live-show/granados-piano-choir-recital-opera-de-bordeaux.html",
+    "show_title": "Granados piano /choir recital Opera de Bordeaux",
+    "date_part_one": "Oct 8",
+    "date_part_two": "2024",
+    "location": "Opera de Bordeaux",
+    "time": "8:00 pm"
+  },
+  {
+    "slug": "la-biennale-di-venezia-opera-44741",
+    "permalink": "live-show/la-biennale-di-venezia-opera-44741.html",
+    "show_title": "La biennale di Venezia Opera",
+    "date_part_one": "Jun 29",
+    "date_part_two": "2022",
+    "location": "La biennale di Venezia Theatre",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "la-biennale-di-venezia-opera-44742",
+    "permalink": "live-show/la-biennale-di-venezia-opera-44742.html",
+    "show_title": "La biennale di Venezia Opera",
+    "date_part_one": "Jun 30",
+    "date_part_two": "2022",
+    "location": "La biennale di Venezia Theatre",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "la-biennale-di-venezia-opera-44743",
+    "permalink": "live-show/la-biennale-di-venezia-opera-44743.html",
+    "show_title": "La biennale di Venezia Opera",
+    "date_part_one": "Jul 1",
+    "date_part_two": "2022",
+    "location": "La biennale di Venezia Theatre",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "la-biennale-di-venezia-opera-44744",
+    "permalink": "live-show/la-biennale-di-venezia-opera-44744.html",
+    "show_title": "La biennale di Venezia Opera",
+    "date_part_one": "Jul 2",
+    "date_part_two": "2022",
+    "location": "La biennale di Venezia Theatre",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "la-brede",
+    "permalink": "live-show/la-brede.html",
+    "show_title": "Eglise de la Brede",
+    "date_part_one": "Sep 13",
+    "date_part_two": "2024",
+    "location": "EGLISE DE LA BREDE",
+    "time": "7:30 pm"
+  },
+  {
+    "slug": "les-virtuose-de-bordeaux-chamber-orchestre43862",
+    "permalink": "live-show/les-virtuose-de-bordeaux-chamber-orchestre43862.html",
+    "show_title": "les virtuose de Bordeaux chamber orchestre",
+    "date_part_one": "Feb 1",
+    "date_part_two": "2020",
+    "location": "Casino de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "les-virtuose-de-bordeaux-chamber-orchestre44814",
+    "permalink": "live-show/les-virtuose-de-bordeaux-chamber-orchestre44814.html",
+    "show_title": "les virtuose de Bordeaux chamber orchestre",
+    "date_part_one": "Sep 10",
+    "date_part_two": "2022",
+    "location": "Eglise de la Brede , festival",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "les-virtuose-de-bordeaux-chamber-orchestre45191",
+    "permalink": "live-show/les-virtuose-de-bordeaux-chamber-orchestre45191.html",
+    "show_title": "les virtuose de Bordeaux chamber orchestre",
+    "date_part_one": "Sep 22",
+    "date_part_two": "2023",
+    "location": "Eglise de la Brede , festival",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "les-virtuose-de-bordeaux-chamber-orchestre45192",
+    "permalink": "live-show/les-virtuose-de-bordeaux-chamber-orchestre45192.html",
+    "show_title": "les virtuose de Bordeaux chamber orchestre",
+    "date_part_one": "Sep 23",
+    "date_part_two": "2023",
+    "location": "Eglise de la Brede , festival",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "new-york-meeting-equality-gender-bip-cnh-industrial---conference-international44628",
+    "permalink": "live-show/new-york-meeting-equality-gender-bip-cnh-industrial---conference-international44628.html",
+    "show_title": "NEW YORK MEETING equality gender BIP CNH INDUSTRIAL , conférence international",
+    "date_part_one": "Mar 8",
+    "date_part_two": "2022",
+    "location": "New york CNH auditorium",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "olympia-arcachon",
+    "permalink": "live-show/olympia-arcachon.html",
+    "show_title": "OLYMPIA ARCACHON",
+    "date_part_one": "Mar 14",
+    "date_part_two": "2026",
+    "location": "Arcachon",
+    "time": "6:31 pm"
+  },
+  {
+    "slug": "opera-life-channel-live44604",
+    "permalink": "live-show/opera-life-channel-live44604.html",
+    "show_title": "Opera life channel live",
+    "date_part_one": "Feb 12",
+    "date_part_two": "2022",
+    "location": "Online tv event",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-falcone-e-borsellino43900",
+    "permalink": "live-show/orchestre-falcone-e-borsellino43900.html",
+    "show_title": "Orchestre Falcone e Borsellino",
+    "date_part_one": "Mar 10",
+    "date_part_two": "2020",
+    "location": "Catane Theater",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-naples-43898",
+    "permalink": "live-show/orchestre-naples-43898.html",
+    "show_title": "Orchestre Naples",
+    "date_part_one": "Mar 8",
+    "date_part_two": "2020",
+    "location": "Naple theater",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson-eglise-de-saint-macaire-festival",
+    "permalink": "live-show/orchestre-symphonique-unisson-eglise-de-saint-macaire-festival.html",
+    "show_title": "Orchestre Symphonique Unisson Eglise de Saint Macaire festival",
+    "date_part_one": "Sep 21",
+    "date_part_two": "2024",
+    "location": "Eglise Saint Macaire",
+    "time": "7:00 pm"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson43850",
+    "permalink": "live-show/orchestre-symphonique-unisson43850.html",
+    "show_title": "Orchestre Symphonique Unisson",
+    "date_part_one": "Jan 20",
+    "date_part_two": "2020",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson44237",
+    "permalink": "live-show/orchestre-symphonique-unisson44237.html",
+    "show_title": "Orchestre Symphonique Unisson",
+    "date_part_one": "Feb 10",
+    "date_part_two": "2021",
+    "location": "Chateaux Segur Parempuyre",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson44731",
+    "permalink": "live-show/orchestre-symphonique-unisson44731.html",
+    "show_title": "Orchestre Symphonique Unisson",
+    "date_part_one": "Jun 19",
+    "date_part_two": "2022",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson44733",
+    "permalink": "live-show/orchestre-symphonique-unisson44733.html",
+    "show_title": "Orchestre Symphonique Unisson",
+    "date_part_one": "Jun 21",
+    "date_part_two": "2022",
+    "location": "Eglise de Talence",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson44954",
+    "permalink": "live-show/orchestre-symphonique-unisson44954.html",
+    "show_title": "Orchestre Symphonique Unisson",
+    "date_part_one": "Jan 28",
+    "date_part_two": "2023",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson45057",
+    "permalink": "live-show/orchestre-symphonique-unisson45057.html",
+    "show_title": "Orchestre Symphonique Unisson",
+    "date_part_one": "May 11",
+    "date_part_two": "2023",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-symphonique-unisson45058",
+    "permalink": "live-show/orchestre-symphonique-unisson45058.html",
+    "show_title": "Orchestre Symphonique Unisson",
+    "date_part_one": "May 12",
+    "date_part_two": "2023",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-unisson--44640",
+    "permalink": "live-show/orchestre-unisson--44640.html",
+    "show_title": "Orchestre Unisson",
+    "date_part_one": "Mar 20",
+    "date_part_two": "2022",
+    "location": "Eglise de la Brede , festival",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-unisson-44590",
+    "permalink": "live-show/orchestre-unisson-44590.html",
+    "show_title": "Orchestre Unisson",
+    "date_part_one": "Jan 29",
+    "date_part_two": "2022",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-unisson-44591",
+    "permalink": "live-show/orchestre-unisson-44591.html",
+    "show_title": "Orchestre Unisson",
+    "date_part_one": "Jan 30",
+    "date_part_two": "2022",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-unisson-45319",
+    "permalink": "live-show/orchestre-unisson-45319.html",
+    "show_title": "Orchestre Unisson",
+    "date_part_one": "Jan 28",
+    "date_part_two": "2024",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "orchestre-unisson-45414",
+    "permalink": "live-show/orchestre-unisson-45414.html",
+    "show_title": "Orchestre Unisson",
+    "date_part_one": "May 2",
+    "date_part_two": "2024",
+    "location": "Theater Dolce Vita Andernos",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "palaisgallien",
+    "permalink": "live-show/palaisgallien.html",
+    "show_title": "Le palais gallien Orchestre Unisson",
+    "date_part_one": "Jul 6",
+    "date_part_two": "2024",
+    "location": "Le Palais Gallien de Bordeaux",
+    "time": "9:00 am"
+  },
+  {
+    "slug": "piano-du-recital44471",
+    "permalink": "live-show/piano-du-recital44471.html",
+    "show_title": "Piano du recital",
+    "date_part_one": "Oct 2",
+    "date_part_two": "2021",
+    "location": "Eglise de Croignon festival",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-duo-recital-43796",
+    "permalink": "live-show/piano-duo-recital-43796.html",
+    "show_title": "piano duo recital",
+    "date_part_one": "Nov 27",
+    "date_part_two": "2019",
+    "location": "ITC Syndeny",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-duo-recital-43798",
+    "permalink": "live-show/piano-duo-recital-43798.html",
+    "show_title": "piano duo recital",
+    "date_part_one": "Nov 29",
+    "date_part_two": "2019",
+    "location": "ITC Melbourne",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-duo-recital-45437",
+    "permalink": "live-show/piano-duo-recital-45437.html",
+    "show_title": "Piano duo recital",
+    "date_part_one": "May 25",
+    "date_part_two": "2024",
+    "location": "Chateaux de Leognan",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-43836",
+    "permalink": "live-show/piano-recital-43836.html",
+    "show_title": "PIano recital",
+    "date_part_one": "Jan 6",
+    "date_part_two": "2020",
+    "location": "Halle de chartrons Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-43871",
+    "permalink": "live-show/piano-recital-43871.html",
+    "show_title": "Piano recital",
+    "date_part_one": "Feb 10",
+    "date_part_two": "2020",
+    "location": "Farnesina Roma",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-44209",
+    "permalink": "live-show/piano-recital-44209.html",
+    "show_title": "Piano recital",
+    "date_part_one": "Jan 13",
+    "date_part_two": "2021",
+    "location": "Opera de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-44360",
+    "permalink": "live-show/piano-recital-44360.html",
+    "show_title": "PIano recital",
+    "date_part_one": "Jun 13",
+    "date_part_two": "2021",
+    "location": "Opera de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-44362",
+    "permalink": "live-show/piano-recital-44362.html",
+    "show_title": "PIano recital",
+    "date_part_one": "Jun 15",
+    "date_part_two": "2021",
+    "location": "Opera de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-44375",
+    "permalink": "live-show/piano-recital-44375.html",
+    "show_title": "PIano recital",
+    "date_part_one": "Jun 28",
+    "date_part_two": "2021",
+    "location": "Eglise de Cestas gazinet",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-44401",
+    "permalink": "live-show/piano-recital-44401.html",
+    "show_title": "PIano recital",
+    "date_part_one": "Jul 24",
+    "date_part_two": "2021",
+    "location": "Mozia Place",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-44540",
+    "permalink": "live-show/piano-recital-44540.html",
+    "show_title": "PIano recital",
+    "date_part_one": "Dec 10",
+    "date_part_two": "2021",
+    "location": "Opera de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-44674",
+    "permalink": "live-show/piano-recital-44674.html",
+    "show_title": "PIano recital",
+    "date_part_one": "Apr 23",
+    "date_part_two": "2022",
+    "location": "Eglise de Cestas",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-and-conference-italian-consulat43850",
+    "permalink": "live-show/piano-recital-and-conference-italian-consulat43850.html",
+    "show_title": "Piano recital and conference Italian Consulat",
+    "date_part_one": "Jan 20",
+    "date_part_two": "2020",
+    "location": "Italian Ambassy Paris",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "piano-recital-and-conference-italian-consulat43868",
+    "permalink": "live-show/piano-recital-and-conference-italian-consulat43868.html",
+    "show_title": "Piano recital and conference Italian Consulat",
+    "date_part_one": "Feb 7",
+    "date_part_two": "2020",
+    "location": "Italian Ambassy Paris",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "pin-galant-merignac-choir-and-piano",
+    "permalink": "live-show/pin-galant-merignac-choir-and-piano.html",
+    "show_title": "Pin Galant Merignac ,choir and piano",
+    "date_part_one": "Oct 14",
+    "date_part_two": "2024",
+    "location": "Pin Galant Merignac",
+    "time": "8:00 pm"
+  },
+  {
+    "slug": "radio-conference45006",
+    "permalink": "live-show/radio-conference45006.html",
+    "show_title": "Radio Conference",
+    "date_part_one": "Mar 21",
+    "date_part_two": "2023",
+    "location": "RIG FM",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "radio-rigfm-show-with-amine-radi44673",
+    "permalink": "live-show/radio-rigfm-show-with-amine-radi44673.html",
+    "show_title": "Radio Rigfm show with Amine Radi",
+    "date_part_one": "Apr 22",
+    "date_part_two": "2022",
+    "location": "Radio live interwievs",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "rai-television-piano-show-44051",
+    "permalink": "live-show/rai-television-piano-show-44051.html",
+    "show_title": "RAi television piano show",
+    "date_part_one": "Aug 8",
+    "date_part_two": "2020",
+    "location": "Rai Roma",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "recital-piano-trio-44685",
+    "permalink": "live-show/recital-piano-trio-44685.html",
+    "show_title": "Recital piano trio",
+    "date_part_one": "May 4",
+    "date_part_two": "2022",
+    "location": "Eglise Notre Dame Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "recital-rossini-45002",
+    "permalink": "live-show/recital-rossini-45002.html",
+    "show_title": "Recital Rossini",
+    "date_part_one": "Mar 17",
+    "date_part_two": "2023",
+    "location": "Opera de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "recital-rossini-45003",
+    "permalink": "live-show/recital-rossini-45003.html",
+    "show_title": "Recital Rossini",
+    "date_part_one": "Mar 18",
+    "date_part_two": "2023",
+    "location": "Opera de Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "romantic-conference45027",
+    "permalink": "live-show/romantic-conference45027.html",
+    "show_title": "Romantic conference",
+    "date_part_one": "Apr 11",
+    "date_part_two": "2023",
+    "location": "Auditorium Meriadeck Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "sicilian-television--show-45491",
+    "permalink": "live-show/sicilian-television--show-45491.html",
+    "show_title": "Sicilian television  show",
+    "date_part_one": "Jul 18",
+    "date_part_two": "2024",
+    "location": "TGS sicily",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "sigmart-tv-recording-45494",
+    "permalink": "live-show/sigmart-tv-recording-45494.html",
+    "show_title": "Sigmart tv recording",
+    "date_part_one": "Jul 21",
+    "date_part_two": "2024",
+    "location": "Teatro Cicero Cefalu",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "southern-cross-philarmonia-orchestra43800",
+    "permalink": "live-show/southern-cross-philarmonia-orchestra43800.html",
+    "show_title": "Southern Cross Philarmonia Orchestra",
+    "date_part_one": "Dec 1",
+    "date_part_two": "2019",
+    "location": "Melbourne ITC",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "stradivarius-conference-45389",
+    "permalink": "live-show/stradivarius-conference-45389.html",
+    "show_title": "Stradivarius conference",
+    "date_part_one": "Apr 7",
+    "date_part_two": "2024",
+    "location": "Auditorium Meriadeck Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "top-chef-m6-tv-reality-44696",
+    "permalink": "live-show/top-chef-m6-tv-reality-44696.html",
+    "show_title": "Top Chef M6 tv Reality",
+    "date_part_one": "May 15",
+    "date_part_two": "2022",
+    "location": "Chateaux Carignan",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "top-chef-m6-tv-reality-44697",
+    "permalink": "live-show/top-chef-m6-tv-reality-44697.html",
+    "show_title": "Top Chef M6 tv Reality",
+    "date_part_one": "May 16",
+    "date_part_two": "2022",
+    "location": "Chateaux Carignan",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "tv-show-my-little-big-italy-canale-nove",
+    "permalink": "live-show/tv-show-my-little-big-italy-canale-nove.html",
+    "show_title": "TV SHOW my Little big Italy CANALE NOVE",
+    "date_part_one": "Oct 6",
+    "date_part_two": "2025",
+    "location": "Italy",
+    "time": "9:30 pm"
+  },
+  {
+    "slug": "w9-france-television-top-chef-44885",
+    "permalink": "live-show/w9-france-television-top-chef-44885.html",
+    "show_title": "w9 france television TOP CHEF",
+    "date_part_one": "Nov 20",
+    "date_part_two": "2022",
+    "location": "Paris television",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "women-right-conference-44691",
+    "permalink": "live-show/women-right-conference-44691.html",
+    "show_title": "Women Right conference",
+    "date_part_one": "May 10",
+    "date_part_two": "2022",
+    "location": "Auditorium Meriadeck Bordeaux",
+    "time": "12:00 am"
+  },
+  {
+    "slug": "women-right-conference-45334",
+    "permalink": "live-show/women-right-conference-45334.html",
+    "show_title": "Women Right conference",
+    "date_part_one": "Feb 12",
+    "date_part_two": "2024",
+    "location": "Saint Medard Theather",
+    "time": "12:00 am"
+  }
+]

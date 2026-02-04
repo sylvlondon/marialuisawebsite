@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/concert-in-saint-macaire-church-with-orchestre-symphonique-unisson.html"
+title: "Concert in Saint MACAIRE church  with Orchestre Symphonique UNISSON  - Maria Luisa Macellaro La Franca"
+description: "Saint MacaireSep 20, 2025"
+og_title: "Concert in Saint MACAIRE church  with Orchestre Symphonique UNISSON  - Maria Luisa Macellaro La Franca"
+twitter_title: "Concert in Saint MACAIRE church  with Orchestre Symphonique UNISSON  - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"concert-in-saint-macaire-church-with-orchestre-symphonique-unisson\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "Concert in Saint MACAIRE church  with Orchestre Symphonique UNISSON"
+date_part_one: "Sep 20"
+date_part_two: "2025"
+location: "Saint Macaire"
+time: "8:40 pm"
+show_body: "<p>Concert in Saint MACAIRE church &nbsp;with Orchestre Symphonique UNISSON</p><p>‍</p>"
+other_slugs:
+  - "concert-in-saint-macaire-church-with-orchestre-symphonique-unisson.html#"
+  - "concert-in-saint-macaire-church-with-orchestre-symphonique-unisson.html#"
+---
+

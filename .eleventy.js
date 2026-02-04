@@ -11,6 +11,6 @@ module.exports = function (eleventyConfig) {
       output: "dist",
       includes: "_includes",
     },
-    templateFormats: ["html", "njk"],
+    templateFormats: ["html", "njk", "md"],
   };
 };

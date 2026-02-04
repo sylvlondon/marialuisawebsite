@@ -1,0 +1,85 @@
+---
+layout: "layouts/base.njk"
+permalink: "press.html"
+title: "Press Review featuring Maria Luisa Macellaro La Franca"
+description: "Press Review featuring Maria Luisa Macellaro La Franca"
+og_title: "Press Review featuring Maria Luisa Macellaro La Franca"
+og_description: "Press Review featuring Maria Luisa Macellaro La Franca"
+og_type: "website"
+twitter_title: "Press Review featuring Maria Luisa Macellaro La Franca"
+twitter_description: "Press Review featuring Maria Luisa Macellaro La Franca"
+twitter_card: "summary_large_image"
+css_href: "../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9d\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\""
+section: "press"
+nav_current: "true"
+asset_prefix: ".."
+---
+{% set feature_item = (news | selectattr("feature", "equalto", true) | first) %}
+<main class="page-wrapper">
+  <section class="latest-articles">
+    <div class="w-layout-blockcontainer container w-container">
+      <section class="page-title-wrapper">
+        <div class="title-content">
+          <div class="title-text-wrapper">
+            <div class="mask-title">
+              <div style="-webkit-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="label-page-title">REVIEWS &amp; FEATURES</div>
+            </div>
+            <div class="mask-title">
+              <h1 style="-webkit-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="f-allcaps fweight-extrabold">PRESS</h1>
+            </div>
+          </div>
+        </div>
+        <div style="width:0%" class="line-separator full-black"></div>
+      </section>
+      <div class="w-dyn-list">
+        <div role="list" class="row-collection w-dyn-items">
+          {% if feature_item %}
+            <div role="listitem" class="w-dyn-item">
+              <a data-w-id="94c850ac-372e-178f-90d9-6542a6ab1793" href="news/{{ feature_item.slug }}.html" class="collection-link feature w-inline-block">
+                <div data-w-id="94c850ac-372e-178f-90d9-6542a6ab1794" class="trigger-hover"></div>
+                <div id="w-node-_94c850ac-372e-178f-90d9-6542a6ab1795-9e25ef9d" data-w-id="94c850ac-372e-178f-90d9-6542a6ab1795" class="image-wrapper">
+                  <img loading="eager" src="{{ feature_item.image_src }}" alt="" sizes="{{ feature_item.image_sizes }}" srcset="{{ feature_item.image_srcset }}" class="{{ feature_item.image_class }}" />
+                  <div style="display:block;width:100%;height:100%" class="cover-wipe"></div>
+                </div>
+                <div id="w-node-_94c850ac-372e-178f-90d9-6542a6ab1798-9e25ef9d" data-w-id="94c850ac-372e-178f-90d9-6542a6ab1798" class="news-tag feature">{{ feature_item.tag }}</div>
+                <div id="w-node-_94c850ac-372e-178f-90d9-6542a6ab179a-9e25ef9d" style="-webkit-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="collection-item-title">
+                  <h2 class="fsize-xlarge">{{ feature_item.title_display }}</h2>
+                </div>
+                <div id="w-node-_94c850ac-372e-178f-90d9-6542a6ab179d-9e25ef9d" style="-webkit-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="desc">
+                  <div class="short-desc">{{ feature_item.short_desc }}</div>
+                </div>
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="w-dyn-list">
+        <div role="list" class="column-collection w-dyn-items">
+          {% for item in news %}
+            {% if not item.feature %}
+              <div data-w-id="90d88023-d8a5-b95d-cb35-2f0002c8ee05" style="opacity:0" role="listitem" class="w-dyn-item">
+                <a data-w-id="90d88023-d8a5-b95d-cb35-2f0002c8ee06" href="news/{{ item.slug }}.html" class="collection-link w-inline-block">
+                  <div data-w-id="90d88023-d8a5-b95d-cb35-2f0002c8ee07" class="trigger-hover"></div>
+                  <div data-w-id="90d88023-d8a5-b95d-cb35-2f0002c8ee08" class="image-wrapper">
+                    <img loading="eager" src="{{ item.image_src }}" alt="" sizes="{{ item.image_sizes }}" srcset="{{ item.image_srcset }}" class="{{ item.image_class }}" />
+                    <div style="display:block;width:100%;height:100%" class="cover-wipe"></div>
+                  </div>
+                  <div data-w-id="90d88023-d8a5-b95d-cb35-2f0002c8ee0b" style="-webkit-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="news-tag">{{ item.tag }}</div>
+                  <div style="-webkit-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="collection-item-title">
+                    <h3 class="fsize-xxsmall">{{ item.title_display }}</h3>
+                  </div>
+                  <div style="-webkit-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="desc">
+                    <div class="short-desc">{{ item.short_desc }}</div>
+                  </div>
+                </a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

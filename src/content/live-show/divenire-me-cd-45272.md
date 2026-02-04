@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/divenire-me-cd-45272.html"
+title: "divenire me cd - Maria Luisa Macellaro La Franca"
+description: "Hey studio MerignacDec 12, 2023"
+og_title: "divenire me cd - Maria Luisa Macellaro La Franca"
+twitter_title: "divenire me cd - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"divenire-me-cd-45272\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "divenire me cd"
+date_part_one: "Dec 12"
+date_part_two: "2023"
+location: "Hey studio Merignac"
+time: "12:00 am"
+show_body: ""
+other_slugs:
+  - "divenire-me-cd-45272.html#"
+  - "divenire-me-cd-45272.html#"
+---
+

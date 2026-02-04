@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/southern-cross-philarmonia-orchestra43800.html"
+title: "Southern Cross Philarmonia Orchestra - Maria Luisa Macellaro La Franca"
+description: "Melbourne ITCDec 01, 2019"
+og_title: "Southern Cross Philarmonia Orchestra - Maria Luisa Macellaro La Franca"
+twitter_title: "Southern Cross Philarmonia Orchestra - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"southern-cross-philarmonia-orchestra43800\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "Southern Cross Philarmonia Orchestra"
+date_part_one: "Dec 1"
+date_part_two: "2019"
+location: "Melbourne ITC"
+time: "12:00 am"
+show_body: ""
+other_slugs:
+  - "southern-cross-philarmonia-orchestra43800.html#"
+  - "southern-cross-philarmonia-orchestra43800.html#"
+---
+

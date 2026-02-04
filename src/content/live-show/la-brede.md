@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/la-brede.html"
+title: "Eglise de la Brede  - Maria Luisa Macellaro La Franca"
+description: "EGLISE DE LA BREDE Sep 13, 2024"
+og_title: "Eglise de la Brede  - Maria Luisa Macellaro La Franca"
+twitter_title: "Eglise de la Brede  - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"la-brede\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "Eglise de la Brede"
+date_part_one: "Sep 13"
+date_part_two: "2024"
+location: "EGLISE DE LA BREDE"
+time: "7:30 pm"
+show_body: ""
+other_slugs:
+  - "la-brede.html#"
+  - "la-brede.html#"
+---
+

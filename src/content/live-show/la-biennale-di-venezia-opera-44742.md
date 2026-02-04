@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/la-biennale-di-venezia-opera-44742.html"
+title: "La biennale di Venezia Opera - Maria Luisa Macellaro La Franca"
+description: "La biennale di Venezia TheatreJun 30, 2022"
+og_title: "La biennale di Venezia Opera - Maria Luisa Macellaro La Franca"
+twitter_title: "La biennale di Venezia Opera - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"la-biennale-di-venezia-opera-44742\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "La biennale di Venezia Opera"
+date_part_one: "Jun 30"
+date_part_two: "2022"
+location: "La biennale di Venezia Theatre"
+time: "12:00 am"
+show_body: ""
+other_slugs:
+  - "la-biennale-di-venezia-opera-44742.html#"
+  - "la-biennale-di-venezia-opera-44742.html#"
+---
+

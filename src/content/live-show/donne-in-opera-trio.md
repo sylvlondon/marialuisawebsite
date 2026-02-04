@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/donne-in-opera-trio.html"
+title: "DONNE in OPERA trio - Maria Luisa Macellaro La Franca"
+description: "Salleboeuf churchDec 13, 2025"
+og_title: "DONNE in OPERA trio - Maria Luisa Macellaro La Franca"
+twitter_title: "DONNE in OPERA trio - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"donne-in-opera-trio\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "DONNE in OPERA trio"
+date_part_one: "Dec 13"
+date_part_two: "2025"
+location: "Salleboeuf church"
+time: "8:30 pm"
+show_body: "<p>Italian Opera trio </p><p>Piano Maria Luisa Macellaro la Franca</p><p>Soprano Christine Lamic </p><p>Mezzo Soprano Yulia Popova </p>"
+other_slugs:
+  - "donne-in-opera-trio.html#"
+  - "donne-in-opera-trio.html#"
+---
+

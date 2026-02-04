@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/les-virtuose-de-bordeaux-chamber-orchestre45192.html"
+title: "les virtuose de Bordeaux chamber orchestre - Maria Luisa Macellaro La Franca"
+description: "Eglise de la Brede , festivalSep 23, 2023"
+og_title: "les virtuose de Bordeaux chamber orchestre - Maria Luisa Macellaro La Franca"
+twitter_title: "les virtuose de Bordeaux chamber orchestre - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"les-virtuose-de-bordeaux-chamber-orchestre45192\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "les virtuose de Bordeaux chamber orchestre"
+date_part_one: "Sep 23"
+date_part_two: "2023"
+location: "Eglise de la Brede , festival"
+time: "12:00 am"
+show_body: ""
+other_slugs:
+  - "les-virtuose-de-bordeaux-chamber-orchestre45192.html#"
+  - "les-virtuose-de-bordeaux-chamber-orchestre45192.html#"
+---
+

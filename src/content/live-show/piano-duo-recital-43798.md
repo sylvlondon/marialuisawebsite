@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/piano-duo-recital-43798.html"
+title: "piano duo recital - Maria Luisa Macellaro La Franca"
+description: "ITC MelbourneNov 29, 2019"
+og_title: "piano duo recital - Maria Luisa Macellaro La Franca"
+twitter_title: "piano duo recital - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"piano-duo-recital-43798\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "piano duo recital"
+date_part_one: "Nov 29"
+date_part_two: "2019"
+location: "ITC Melbourne"
+time: "12:00 am"
+show_body: ""
+other_slugs:
+  - "piano-duo-recital-43798.html#"
+  - "piano-duo-recital-43798.html#"
+---
+

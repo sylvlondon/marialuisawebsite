@@ -1,0 +1,27 @@
+---
+layout: "layouts/live-item.njk"
+tags: "shows"
+permalink: "live-show/tv-show-my-little-big-italy-canale-nove.html"
+title: "TV SHOW my Little big Italy CANALE NOVE  - Maria Luisa Macellaro La Franca"
+description: "ItalyOct 06, 2025"
+og_title: "TV SHOW my Little big Italy CANALE NOVE  - Maria Luisa Macellaro La Franca"
+twitter_title: "TV SHOW my Little big Italy CANALE NOVE  - Maria Luisa Macellaro La Franca"
+css_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25ef9f\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\" data-wf-collection=\"66b9f659f5f74a4a9e25f039\" data-wf-item-slug=\"tv-show-my-little-big-italy-canale-nove\""
+section: "shows"
+nav_current: "false"
+nav_prefix: ".."
+asset_prefix: "../.."
+show_title: "TV SHOW my Little big Italy CANALE NOVE"
+date_part_one: "Oct 6"
+date_part_two: "2025"
+location: "Italy"
+time: "9:30 pm"
+show_body: "<p>Maria Luisa in the Guest of the famous TV&nbsp;SHOW my little big italy , together with Alessandra Pierini and Riccardo Zuddas </p>"
+other_slugs:
+  - "tv-show-my-little-big-italy-canale-nove.html#"
+  - "tv-show-my-little-big-italy-canale-nove.html#"
+---
+

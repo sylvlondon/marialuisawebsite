@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html {% if html_attrs %}{{ html_attrs | safe }}{% endif %}>
+  {% set asset_prefix = asset_prefix or '' %}
   <head>
     <meta charset="utf-8" />
     <title>{{ title }}</title>
@@ -13,6 +14,7 @@
     {% if twitter_image %}<meta content="{{ twitter_image }}" property="twitter:image" />{% endif %}
     {% if twitter_card %}<meta content="{{ twitter_card }}" name="twitter:card" />{% endif %}
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <base href="/" />
     <link href="{{ css_href or asset_prefix + '/cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css' }}" rel="stylesheet" type="text/css" />
     {% if head_styles %}{{ head_styles | safe }}{% endif %}
     <script type="text/javascript">

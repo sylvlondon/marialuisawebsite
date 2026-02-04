@@ -9,6 +9,10 @@
     }
   }
 
+  function enableInteractionsClass() {
+    document.documentElement.classList.add('w-mod-ix');
+  }
+
   function fadePageLoad() {
     const loader = document.querySelector('.page-load');
     if (!loader) return;
@@ -50,77 +54,170 @@
   }
 
   function getTargetStyles(el, props) {
-    const prev = {};
-    props.forEach((prop) => {
-      prev[prop] = el.style[prop];
-      el.style[prop] = '';
-    });
+    const inline = el.getAttribute('style');
+    if (inline !== null) {
+      el.removeAttribute('style');
+    }
     const computed = window.getComputedStyle(el);
     const target = {};
     props.forEach((prop) => {
       target[prop] = computed[prop];
     });
-    props.forEach((prop) => {
-      el.style[prop] = prev[prop];
-    });
+    if (inline !== null) {
+      el.setAttribute('style', inline);
+    }
     return target;
   }
 
+  function getBreakpoint() {
+    const width = window.innerWidth || document.documentElement.clientWidth || 0;
+    if (width <= 767) return 'mobile';
+    if (width <= 991) return 'tablet';
+    return 'desktop';
+  }
+
+  function getOverrideTarget(el, props) {
+    const overrides = {};
+    if (el.classList.contains('card-opacity') && props.includes('opacity')) {
+      overrides.opacity = '0.0001824';
+    }
+    if (el.classList.contains('card-wipe-r') && props.includes('height')) {
+      overrides.height = '0%';
+    }
+    if (el.classList.contains('cover-wipe') && props.includes('height')) {
+      overrides.height = '0%';
+    }
+    if (el.classList.contains('hero-image') && props.includes('transform')) {
+      const bp = getBreakpoint();
+      const translate = bp === 'mobile' ? '0.0052%' : '0.0048%';
+      overrides.transform = `translate3d(0px, ${translate}, 0px) scale3d(1, 1, 1)`;
+    }
+    if (el.classList.contains('wrapped-image') && el.classList.contains('portrait') && props.includes('transform')) {
+      const bp = getBreakpoint();
+      let translate = '34.1906px';
+      if (bp === 'tablet') translate = '-19.9488px';
+      if (bp === 'mobile') translate = '-42.7282px';
+      overrides.transform = `translate3d(0px, ${translate}, 0px) scale3d(1.1, 1.1, 1)`;
+    }
+    return overrides;
+  }
+
   function setupScrollAnimations() {
-    const candidates = Array.from(document.querySelectorAll('[data-w-id]'))
-      .filter((el) => el.getAttribute('style') && /opacity|transform|width|height/.test(el.getAttribute('style')));
+    const specialSelectors = [
+      '.card-opacity',
+      '.card-wipe-r',
+      '.cover-wipe',
+      '.hero-image',
+      '.wrapped-image.portrait',
+    ];
+    const specialElements = specialSelectors.flatMap((selector) => Array.from(document.querySelectorAll(selector)));
+
+    const candidates = Array.from(new Set([
+      ...specialElements,
+      ...Array.from(document.querySelectorAll('[style]'))
+        .filter((el) => {
+          if (el.classList.contains('page-load')) return false;
+          if (el.getAttribute('data-animation-type') === 'lottie') return false;
+          const style = el.getAttribute('style') || '';
+          return /opacity|transform|width|height|translate3d|scale3d/.test(style);
+        })
+    ]));
 
     if (candidates.length === 0) return;
+
+    const observedElements = new Set();
+    const triggerMap = new Map();
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
-        const el = entry.target;
-        observer.unobserve(el);
-        const props = [];
-        if (el.style.opacity) props.push('opacity');
-        if (el.style.transform) props.push('transform');
-        if (el.style.width) props.push('width');
-        if (el.style.height) props.push('height');
+        const elements = triggerMap.get(entry.target) || [];
+        elements.forEach((el) => {
+          if (el.dataset.ixTriggered) return;
+          el.dataset.ixTriggered = '1';
+          const style = el.getAttribute('style') || '';
+          const props = [];
+          if (/opacity/.test(style)) props.push('opacity');
+          if (/transform/.test(style)) props.push('transform');
+          if (/width/.test(style)) props.push('width');
+          if (/height/.test(style)) props.push('height');
 
-        if (props.length === 0) return;
-        const target = getTargetStyles(el, props);
+          const overrideSeed = props.length ? props : ['opacity', 'transform', 'width', 'height'];
+          const override = getOverrideTarget(el, overrideSeed);
+          const effectiveProps = props.length ? props : Object.keys(override);
+          if (effectiveProps.length === 0) return;
+          const target = getTargetStyles(el, effectiveProps);
+          Object.assign(target, override);
 
-        const keyframes = [
-          {
-            opacity: el.style.opacity || undefined,
-            transform: el.style.transform || undefined,
-            width: el.style.width || undefined,
-            height: el.style.height || undefined,
-          },
-          {
-            opacity: target.opacity || undefined,
-            transform: target.transform || undefined,
-            width: target.width || undefined,
-            height: target.height || undefined,
+          const keyframes = [
+            {
+              opacity: el.style.opacity || undefined,
+              transform: el.style.transform || undefined,
+              width: el.style.width || undefined,
+              height: el.style.height || undefined,
+            },
+            {
+              opacity: target.opacity || undefined,
+              transform: target.transform || undefined,
+              width: target.width || undefined,
+              height: target.height || undefined,
+            }
+          ];
+
+          const parent = el.parentElement;
+          let delay = 0;
+          if (parent) {
+            const siblings = Array.from(parent.querySelectorAll('[data-w-id]'))
+              .filter((node) => {
+                const s = node.getAttribute('style') || '';
+                return /opacity|transform|width|height/.test(s);
+              });
+            const index = siblings.indexOf(el);
+            if (index > 0) delay = index * 80;
           }
-        ];
 
-        const parent = el.parentElement;
-        let delay = 0;
-        if (parent) {
-          const siblings = Array.from(parent.querySelectorAll('[data-w-id]'))
-            .filter((node) => node.getAttribute('style') && /opacity|transform|width|height/.test(node.getAttribute('style')));
-          const index = siblings.indexOf(el);
-          if (index > 0) delay = index * 80;
-        }
-
-        const duration = prefersReducedMotion ? 1 : 900;
-        el.animate(keyframes, {
-          duration,
-          delay,
-          easing: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
-          fill: 'forwards',
+          const duration = prefersReducedMotion ? 1 : 900;
+          const animation = el.animate(keyframes, {
+            duration,
+            delay,
+            easing: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
+            fill: 'forwards',
+          });
+          animation.onfinish = () => {
+            effectiveProps.forEach((prop) => {
+              if (target[prop] !== undefined) {
+                el.style[prop] = target[prop];
+              }
+            });
+            if (target.transform) {
+              el.style.transformStyle = 'preserve-3d';
+              el.style.willChange = 'transform';
+            }
+          };
         });
       });
     }, { threshold: 0.2 });
 
-    candidates.forEach((el) => observer.observe(el));
+    const getTriggerElement = (el) => {
+      const parent = el.parentElement;
+      if (!parent) return el;
+      const style = window.getComputedStyle(parent);
+      const overflowHidden = ['hidden', 'clip'].includes(style.overflow)
+        || ['hidden', 'clip'].includes(style.overflowX)
+        || ['hidden', 'clip'].includes(style.overflowY);
+      return overflowHidden ? parent : el;
+    };
+
+    candidates.forEach((el) => {
+      const trigger = getTriggerElement(el);
+      const list = triggerMap.get(trigger) || [];
+      list.push(el);
+      triggerMap.set(trigger, list);
+      if (!observedElements.has(trigger)) {
+        observer.observe(trigger);
+        observedElements.add(trigger);
+      }
+    });
   }
 
   function setupLottie() {
@@ -142,6 +239,7 @@
   }
 
   onReady(() => {
+    enableInteractionsClass();
     fadePageLoad();
     setupNav();
     setupScrollAnimations();

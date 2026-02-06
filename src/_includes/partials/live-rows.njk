@@ -1,0 +1,47 @@
+{% macro showPageRow(show, rowWId, nodeId) %}
+<div data-w-id="{{ rowWId }}" style="opacity:0" role="listitem" class="home-live-item w-dyn-item">
+  <a href="live-show/{{ show.slug }}.html" class="live-link-page w-inline-block">
+    <div class="live-date">
+      <div class="date-content w-clearfix">
+        <div class="date">{{ show.date_part_one }}</div>
+        <div class="date">{{ show.date_part_two }}</div>
+      </div>
+      <div class="bg-date-swap bg-dark"></div>
+    </div>
+    <div class="live-item-content">
+      <h2 class="live-item-title fsize-xxsmall">{{ show.show_title }}</h2>
+      <div class="live-details">
+        <div class="localization">{{ show.location }}</div>
+        <div class="separator">●</div>
+        <div class="time">{{ show.time }}</div>
+      </div>
+    </div>
+    <div class="live-line-dark"></div>
+    <div id="{{ nodeId }}" class="live-line-darkgrey"></div>
+  </a>
+</div>
+{% endmacro %}
+
+{% macro homeRow(show, rowWId, contentNodeId, lineNodeId, greyNodeId) %}
+<div data-w-id="{{ rowWId }}" style="opacity:0" role="listitem" class="home-live-item w-dyn-item">
+  <a href="live-show/{{ show.slug }}.html" class="live-link w-inline-block">
+    <div class="live-date">
+      <div class="date-content w-clearfix">
+        <div class="date">{{ show.date_part_one }}</div>
+        <div class="date">{{ show.date_part_two }}</div>
+      </div>
+      <div class="bg-date-swap"></div>
+    </div>
+    <div id="{{ contentNodeId }}" class="live-item-content">
+      <h3 class="live-item-title fsize-xxsmall">{{ show.show_title }}</h3>
+      <div class="live-details">
+        <div class="localization">{{ show.location }}</div>
+        <div class="separator">●</div>
+        <div class="time">{{ show.time }}</div>
+      </div>
+    </div>
+    <div id="{{ lineNodeId }}" class="live-line-white"></div>
+    <div id="{{ greyNodeId }}" class="live-line-grey"></div>
+  </a>
+</div>
+{% endmacro %}

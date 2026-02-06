@@ -1,0 +1,72 @@
+---
+layout: "layouts/base.njk"
+permalink: "shows.html"
+title: "Next Show and performances from Maria Luisa Macellaro La Franca"
+description: "Next Show and performances from Maria Luisa Macellaro La Franca"
+og_title: "Next Show and performances from Maria Luisa Macellaro La Franca"
+og_description: "Next Show and performances from Maria Luisa Macellaro La Franca"
+og_type: "website"
+twitter_title: "Next Show and performances from Maria Luisa Macellaro La Franca"
+twitter_description: "Next Show and performances from Maria Luisa Macellaro La Franca"
+twitter_card: "summary_large_image"
+css_href: "../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/css/maria-luisa-macellaro-la-franca.webflow.shared.dc88a0d75.css"
+favicon_href: "../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f015_favicon.png"
+webclip_href: "../cdn.prod.website-files.com/66b9f659f5f74a4a9e25ef1d/66b9f659f5f74a4a9e25f016_webclip.png"
+html_attrs: "data-wf-domain=\"www.marialuisamacellarolafranca.com\" data-wf-page=\"66b9f659f5f74a4a9e25efa0\" data-wf-site=\"66b9f659f5f74a4a9e25ef1d\" lang=\"en\""
+section: "shows"
+nav_current: "true"
+asset_prefix: ".."
+---
+{% from "partials/live-rows.njk" import showPageRow %}
+<main class="page-wrapper">
+  <section class="live-section bg-primary-light">
+    <div class="w-layout-blockcontainer container w-container">
+      <section class="page-title-wrapper">
+        <div class="title-content">
+          <div class="title-text-wrapper">
+            <div class="mask-title">
+              <div style="-webkit-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="label-page-title">Upcoming</div>
+            </div>
+            <div class="mask-title">
+              <h1 style="-webkit-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="f-allcaps fweight-extrabold">shows</h1>
+            </div>
+          </div>
+        </div>
+        <div style="width:0%" class="line-separator full-black"></div>
+        <aside class="page-live-collection w-dyn-list">
+          <div role="list" class="home-live-list w-dyn-items">
+            {% for slug in show_sections.upcoming %}
+              {% set show = shows | selectattr("slug", "equalto", slug) | first %}
+              {% if show %}
+                {{ showPageRow(show, "585dc680-16ca-63f6-23b9-13b061abbdf4", "w-node-_585dc680-16ca-63f6-23b9-13b061abbe03-9e25efa0") }}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </aside>
+      </section>
+      <section class="page-title-wrapper">
+        <div class="title-content">
+          <div class="title-text-wrapper">
+            <div class="mask-title">
+              <div style="-webkit-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="label-page-title">PREVIOUS</div>
+            </div>
+            <div class="mask-title">
+              <h1 style="-webkit-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="f-allcaps fweight-extrabold">shows</h1>
+            </div>
+          </div>
+        </div>
+        <div style="width:0%" class="line-separator full-black"></div>
+        <aside class="page-live-collection w-dyn-list">
+          <div role="list" class="home-live-list w-dyn-items">
+            {% for slug in show_sections.previous %}
+              {% set show = shows | selectattr("slug", "equalto", slug) | first %}
+              {% if show %}
+                {{ showPageRow(show, "327b42c2-6e2e-9782-4cde-29f812ae94f0", "w-node-_327b42c2-6e2e-9782-4cde-29f812ae9504-9e25efa0") }}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </aside>
+      </section>
+    </div>
+  </section>
+</main>

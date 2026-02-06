@@ -24,7 +24,8 @@
             {% set item = news | selectattr("slug", "equalto", slug) | first %}
             {% if item %}
               <div role="listitem" class="w-dyn-item">
-                <a data-w-id="e0b41f99-8531-e397-5ea8-9d6ba63f1b46" href="{{ slug }}.html" class="collection-link w-inline-block">
+                {# base.njk sets <base href="/"> so we must use an absolute-from-root path here #}
+                <a data-w-id="e0b41f99-8531-e397-5ea8-9d6ba63f1b46" href="news/{{ slug }}.html" class="collection-link w-inline-block">
                   <div data-w-id="e0b41f99-8531-e397-5ea8-9d6ba63f1b47" class="trigger-hover"></div>
                   <div data-w-id="e0b41f99-8531-e397-5ea8-9d6ba63f1b48" class="image-wrapper">
                     <img loading="eager" src="{{ item.image_src }}" alt="" sizes="{{ item.image_sizes }}" srcset="{{ item.image_srcset }}" class="wrapped-image" />

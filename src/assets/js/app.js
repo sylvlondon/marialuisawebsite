@@ -167,16 +167,18 @@
           const parent = el.parentElement;
           let delay = 0;
           if (parent) {
-            const siblings = Array.from(parent.querySelectorAll('[data-w-id]'))
-              .filter((node) => {
-                const s = node.getAttribute('style') || '';
-                return /opacity|transform|width|height/.test(s);
-              });
+            // Only stagger within the direct children of the same container, and cap it.
+            const siblings = Array.from(parent.children).filter((node) => {
+              if (!node.hasAttribute('data-w-id')) return false;
+              const s = node.getAttribute('style') || '';
+              return /opacity|transform|width|height/.test(s);
+            });
             const index = siblings.indexOf(el);
-            if (index > 0) delay = index * 80;
+            if (index > 0) delay = Math.min(index, 4) * 80;
           }
 
-          const duration = prefersReducedMotion ? 1 : 900;
+          let duration = prefersReducedMotion ? 1 : 900;
+          if (el.classList.contains('cover-wipe')) duration = prefersReducedMotion ? 1 : 600;
           const animation = el.animate(keyframes, {
             duration,
             delay,
@@ -196,7 +198,7 @@
           };
         });
       });
-    }, { threshold: 0.2 });
+    }, { threshold: 0.05, rootMargin: '200px 0px 200px 0px' });
 
     const getTriggerElement = (el) => {
       const parent = el.parentElement;

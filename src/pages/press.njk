@@ -18,7 +18,12 @@ nav_current: "true"
 asset_prefix: ".."
 ---
 {% from "partials/press-card.njk" import featureCard, standardCard %}
-{% set feature_item = (news | selectattr("feature", "equalto", true) | first) %}
+{% set feature_item = null %}
+{% for item in news %}
+  {% if item.feature and not feature_item %}
+    {% set feature_item = item %}
+  {% endif %}
+{% endfor %}
 <main class="page-wrapper">
   <section class="latest-articles">
     <div class="w-layout-blockcontainer container w-container">

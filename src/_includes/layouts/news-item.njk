@@ -21,7 +21,7 @@
       <div class="w-dyn-list">
         <div role="list" class="column-collection w-dyn-items">
           {% for slug in other_slugs %}
-            {% set item = news | selectattr("slug", "equalto", slug) | first %}
+            {% set item = newsBySlug[slug] %}
             {% if item %}
               <div role="listitem" class="w-dyn-item">
                 {# base.njk sets <base href="/"> so we must use an absolute-from-root path here #}

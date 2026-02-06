@@ -36,7 +36,7 @@ asset_prefix: ".."
         <aside class="page-live-collection w-dyn-list">
           <div role="list" class="home-live-list w-dyn-items">
             {% for slug in show_sections.upcoming %}
-              {% set show = shows | selectattr("slug", "equalto", slug) | first %}
+              {% set show = showsBySlug[slug] %}
               {% if show %}
                 {{ showPageRow(show, "585dc680-16ca-63f6-23b9-13b061abbdf4", "w-node-_585dc680-16ca-63f6-23b9-13b061abbe03-9e25efa0") }}
               {% endif %}
@@ -59,7 +59,7 @@ asset_prefix: ".."
         <aside class="page-live-collection w-dyn-list">
           <div role="list" class="home-live-list w-dyn-items">
             {% for slug in show_sections.previous %}
-              {% set show = shows | selectattr("slug", "equalto", slug) | first %}
+              {% set show = showsBySlug[slug] %}
               {% if show %}
                 {{ showPageRow(show, "327b42c2-6e2e-9782-4cde-29f812ae94f0", "w-node-_327b42c2-6e2e-9782-4cde-29f812ae9504-9e25efa0") }}
               {% endif %}

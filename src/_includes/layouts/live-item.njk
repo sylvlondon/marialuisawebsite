@@ -31,7 +31,7 @@
       <aside class="page-live-collection w-dyn-list">
         <div role="list" class="home-live-list w-dyn-items">
           {% for slug in other_slugs %}
-            {% set item = shows | selectattr("slug", "equalto", slug) | first %}
+            {% set item = showsBySlug[slug] %}
             {% if item %}
               <div data-w-id="0a0a0a43-298b-7145-d91c-ea5c564f28e1" style="opacity:0" role="listitem" class="home-live-item w-dyn-item">
                 <a href="{{ item.permalink | replace('live-show/', '') }}" class="live-link-page w-inline-block">
